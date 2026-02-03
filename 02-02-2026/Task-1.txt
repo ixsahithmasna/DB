@@ -1,0 +1,28 @@
+Create Database College_DB
+
+create table Student(
+Student_id BIGINT primary key,
+name varchar(255),
+email varchar(255),
+age int,
+join_date DATE,
+active_flag BIT
+);
+
+
+
+Create table COURSES(
+course_id int primary key,
+course_name varchar NOT NULL,
+fees Decimal
+);
+
+
+Create table ENROLLMENTS(
+enroll_id BIGINT primary key,
+student_id BIGINT,
+course_id INT,
+enroll_timestamp TIMESTAMP
+);
+
+
