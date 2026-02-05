@@ -66,3 +66,15 @@ alter column name varchar(500)
 
 select * from Student
 select * from COURSES
+select * from ENROLLMENTS
+
+select age,count(*) from Student group by age having count(*)>1
+
+select * from ENROLLMENTS order by enroll_timestamp asc
+
+
+update student
+set age=22,
+	phone_number=99999999,
+	registration_date='2026-01-06' 
+	where name = 'ravi';
