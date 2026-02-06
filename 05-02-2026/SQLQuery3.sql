@@ -9,18 +9,24 @@ left join Orders as o on
 c.customer_id = o.customer_id
 where o.order_id is null
 
+select * from Employees 
+select * from Department
+
+select * from Department as d
+left join Employees as e  on 
+d.dep_id = e.dep_id
 
 
-select * from Customers as c
-join Orders as o 
-on c.customer_id = o.customer_id
-join products as p on 
-p.order_id = o.order_id
 
 
-select * from Customers as c 
-left join Orders as o on 
-c.customer_id = o.customer_id
-where c.name like 'sa%'
+select p.* from products as p
+left join order_items as oi
+on p.product_id = oi.product_id 
+where oi.order_id is null
+
+
+
+
+
 
 
