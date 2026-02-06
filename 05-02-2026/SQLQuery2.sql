@@ -1,3 +1,12 @@
+--  INNER JOIN Tasks
+-- Customers with their orders
+-- Orders with customer name and city
+-- Employees with departments
+-- Orders with products (3-table join)
+-- Select multiple columns from joined tables
+-- Filter joined rows using WHERE amount > X
+-- Filter joined rows using LIKE pattern
+
 use College_DB
 select * from Customers as c
 join Orders as o on 

@@ -1,3 +1,9 @@
+-- FULL OUTER JOIN Tasks (UNION Method)
+-- Combine all customers and orders
+-- Show matched and unmatched rows
+-- Employees + departments full list
+-- Write FULL JOIN using LEFT + RIGHT + UNION
+
 select * from Customers as c 
 full join Orders as o on 
 c.customer_id = o.customer_id

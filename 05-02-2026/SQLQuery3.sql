@@ -1,3 +1,12 @@
+--  LEFT JOIN Tasks	
+-- All customers with orders including NULLs
+-- Customers without orders
+-- All departments with employees
+-- Departments without employees
+-- Products not ordered
+-- LEFT JOIN with WHERE filter
+-- LEFT JOIN with LIKE filter
+
 use College_DB
 select * from Customers as c 
 left join Orders as o on 

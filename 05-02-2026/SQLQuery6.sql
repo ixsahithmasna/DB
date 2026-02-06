@@ -1,3 +1,11 @@
+-- SELF JOIN Tasks
+-- Employee with manager name
+-- Employees under same manager
+-- List only managers
+-- Employee–mentor mapping
+-- Show reporting hierarchy pairs
+
+
 select e1.*,e.emp_name from Employees as e ,Employees as e1
 where e.emp_id = e1.manager_id
 

@@ -1,3 +1,10 @@
+--  RIGHT JOIN Tasks
+-- --
+-- Orders without matching customers
+-- All departments even if empty
+-- RIGHT JOIN with WHERE condition
+-- RIGHT JOIN with COUNT per parent
+
 select * from Orders as o
 right join Customers as c on 
 o.customer_id = c.customer_id

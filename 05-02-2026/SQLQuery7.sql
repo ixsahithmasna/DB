@@ -1,3 +1,10 @@
+-- CROSS JOIN Tasks
+-- All customer–product combinations
+-- All employee–role combinations
+-- Generate all pair combinations from two tables
+
+
+
 select * from Customers as c
 join Orders as o on 
 c.customer_id = o.customer_id 
