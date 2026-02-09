@@ -39,3 +39,4 @@ on p.product_id = ot.product_id group by p.product_id
 select d.dep_id,sum(e.salary) as total from Employees as e 
 join Department as d on 
 e.dep_id = d.dep_id group by d.dep_id
+

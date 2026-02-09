@@ -173,6 +173,8 @@ SELECT * FROM Order_Items;
 select * from Employees
 select * from Department
 select * from products
+select * from Orders
+SELECT * FROM Order_Items;
 select * from Suppliers
 
 select * from Student
