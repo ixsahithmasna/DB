@@ -30,8 +30,8 @@ d.dep_id = e.dep_id
 group by d.dep_id
 
 
-select p.product_id, Count(*) as product_count from products as p
-join order_items as ot 
+select p.product_id, Count(ot.order_id) as product_count from products as p
+left join order_items as ot 
 on p.product_id = ot.product_id group by p.product_id
 
 
@@ -39,4 +39,5 @@ on p.product_id = ot.product_id group by p.product_id
 select d.dep_id,sum(e.salary) as total from Employees as e 
 join Department as d on 
 e.dep_id = d.dep_id group by d.dep_id
+
 
