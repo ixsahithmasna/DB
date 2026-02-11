@@ -63,5 +63,3 @@ where c.name like 'sa%'
 
 
 
-
-

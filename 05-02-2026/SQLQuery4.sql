@@ -5,11 +5,9 @@
 -- RIGHT JOIN with WHERE condition
 -- RIGHT JOIN with COUNT per parent
 
-select * from Orders as o
+select c.customer_id,c.name,c.email from Orders as o 
 right join Customers as c on 
-o.customer_id = c.customer_id
-where c.customer_id is null
-
+o.customer_id = c.customer_id where o.order_id is null
 
 
 select * from Employees as e 

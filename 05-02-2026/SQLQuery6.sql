@@ -29,3 +29,11 @@ JOIN Employees AS m
 
 
 
+
+select  from Employees as e 
+join Employees as e1 on 
+e.emp_id = e1.manager_id
+
+
+select * from Employees order by salary desc
+offset 2 limit 1

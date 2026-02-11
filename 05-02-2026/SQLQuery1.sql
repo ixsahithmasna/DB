@@ -180,3 +180,8 @@ select * from Suppliers
 select * from Student
 select * from COURSES
 select * from student_course
+
+
+
+
+
