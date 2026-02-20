@@ -11,7 +11,7 @@ c.customer_id = o.customer_id where order_date > '2026-01-05'
 
 select * from Employees as e 
 join Department as d on 
-e.dep_id  = d.dep_id where dep_id 
+e.dep_id  = d.dep_id where d.dep_id=1
 
 select * from Order_Items as ot 
 join Products as p on 
